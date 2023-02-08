@@ -1,0 +1,9 @@
+# Specifies the version of the docker-compose file format
+version: '3'
+
+# Defines the services to be created and run by the compose file
+services:
+  # The name of the service being defined
+  my_service:
+    # Specifies the build context for the service's Dockerfile
+    build: .
